@@ -4,6 +4,9 @@
 <div id="outside">
 <form id="survey-form" action="/my-handling-form-page" method="post">
   <h1 id="title">Application for permission to date my daughter</h1>
+  gradient {
+    background: radial-gradient(red, yellow);
+}
   <p id="description"><b>Note:</b> Form is to be completed at least 21 days prior to date</p>
   
   <!-- ------------------Personal Details----------------------------- -->
