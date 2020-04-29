@@ -4,9 +4,6 @@
 <div id="outside">
 <form id="survey-form" action="/my-handling-form-page" method="post">
   <h1 id="title">Application for permission to date my daughter</h1>
-  gradient {
-    background: radial-gradient(red, yellow);
-}
   <p id="description"><b>Note:</b> Form is to be completed at least 21 days prior to date</p>
   
   <!-- ------------------Personal Details----------------------------- -->
@@ -100,3 +97,24 @@
   </div>
 
 <!-- https://developer.mozilla.org/en-US/docs/Learn/HTML/Forms/Form_validation -->
+<html>
+<head>
+<style>
+#grad1 {
+  height: 20000px;
+  background-color: red; /* For browsers that do not support gradients */
+  background-image: linear-gradient(to right, red , yellow); /* Standard syntax (must be last) */
+}
+</style>
+</head>
+<body>
+
+<h1>Linear Gradient - Left to Right</h1>
+<p>This linear gradient starts at the left. It starts red, transitioning to yellow:</p>
+
+<div id="grad1"></div>
+
+<p><strong>Note:</strong> Internet Explorer 9 and earlier versions do not support gradients.</p>
+
+</body>
+</html>
